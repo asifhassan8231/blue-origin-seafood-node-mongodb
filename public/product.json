@@ -1,0 +1,38 @@
+[
+    {
+        "img": "https://i.ibb.co/cLsyHwB/Close-up-of-fresh-Tuna-Fish-just-out-of-the-sea.jpg",
+        "title": "TUNA",
+        "description": "A tuna is a saltwater fish that belongs to the tribe Thunnini, a subgrouping of the Scombridae family. The Thunnini comprise 15 species across five genera, the sizes of which vary greatly, ranging from the bullet tuna up to the Atlantic bluefin tuna.",
+        "price": 299
+    },
+    {
+        "img": "https://i.ibb.co/g4DtkNC/lobster.jpg",
+        "title": "LOBSTER",
+        "description": "Lobsters are a family of large marine crustaceans. Lobsters have long bodies with muscular tails, and live in crevices or burrows on the sea floor. Three of their five pairs of legs have claws, including the first pair, which are usually much larger than the others.",
+        "price": 349
+    },
+    {
+        "img": "https://i.ibb.co/6gdjvdV/salmon.jpg",
+        "title": "SALMON",
+        "description": "The Atlantic salmon is a species of ray-finned fish in the family Salmonidae. It is the 3rd largest of the Salmonidae, behind Siberian Taimen and Pacific Chinook Salmon, growing up to a meter in length. Atlantic salmon are found in the northern Atlantic Ocean and in rivers that flow into this ocean.",
+        "price": 199
+    },
+    {
+        "img": "https://i.ibb.co/bJ8Y41q/crabs-scaled.jpg",
+        "title": "CRAB",
+        "description": "Crabs are decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting tail, usually hidden entirely under the thorax. They live in all the world's oceans, in fresh water, and on land, are generally covered with a thick exoskeleton, and have a single pair of pincers.",
+        "price": 249
+    },
+    {
+        "img": "https://i.ibb.co/H4qP6tK/red-snapper-fish-06-500x500-1.jpg",
+        "title": "SNAPPER",
+        "description": "Lutjanidae, or snappers are a family of perciform fish, mainly marine, but with some members inhabiting estuaries, feeding in fresh water. The family includes about 113 species. Some are important food fish. One of the best known is the red snapper. ",
+        "price": 139
+    },
+    {
+        "img": "https://i.ibb.co/xg4Kj9J/OYSTER.jpg",
+        "title": "OYSTER",
+        "description": "Oyster is the common name for a number of different families of salt-water bivalve molluscs that live in marine or brackish habitats. In some species, the valves are highly calcified, and many are somewhat irregular in shape. Many, but not all oysters are in the superfamily Ostreoidea. ",
+        "price": 499
+    }
+]
