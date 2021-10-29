@@ -4,7 +4,7 @@ import { useParams } from 'react-router';
 const SingleProduct = () => {
     const [product, setProduct] = useState({});
     const { id } = useParams();
-    const uri = `http://localhost:5000/products/${id}`;
+    const uri = `https://frozen-peak-58122.herokuapp.com/${id}`;
     useEffect(() => {
         fetch(uri)
             .then(res => res.json())

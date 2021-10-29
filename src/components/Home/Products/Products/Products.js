@@ -8,7 +8,7 @@ const Products = () => {
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
         setIsLoading(true);
-        fetch('http://localhost:5000/products')
+        fetch('https://frozen-peak-58122.herokuapp.com/products')
             .then(res => res.json())
             .then(data => {
                 setProducts(data);
