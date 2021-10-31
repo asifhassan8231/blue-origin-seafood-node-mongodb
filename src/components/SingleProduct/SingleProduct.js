@@ -20,7 +20,7 @@ const SingleProduct = () => {
     }, [uri])
 
     const onSubmit = data => {
-        axios.post(`http://localhost:5000/products/${id}`, data)
+        axios.post(`https://frozen-peak-58122.herokuapp.com/products/${id}`, data)
             .then(res => {
                 if (res) {
                     alert('Placed Order Successfully!');

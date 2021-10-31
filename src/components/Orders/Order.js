@@ -5,7 +5,7 @@ const Order = () => {
     const [order, setOrder] = useState([]);
     const { user } = useAuth();
     useEffect(() => {
-        fetch(`http://localhost:5000/orders/${user.email}`)
+        fetch(`https://frozen-peak-58122.herokuapp.com/orders/${user.email}`)
             .then(res => res.json())
             .then(data => setOrder(data))
     }, [user.email])
@@ -14,7 +14,7 @@ const Order = () => {
     const handleCancel = (id) => {
         const proceed = window.confirm('Are you sure about that?');
         if (proceed) {
-            fetch(`http://localhost:5000/orders/${id}`, {
+            fetch(`https://frozen-peak-58122.herokuapp.com/orders/${id}`, {
                 method: 'DELETE'
             }).then(res => res.json())
                 .then(data => {

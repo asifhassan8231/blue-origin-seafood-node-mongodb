@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const Manage = () => {
     const [orders, setOrders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/orders')
+        fetch('https://frozen-peak-58122.herokuapp.com/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [])
@@ -11,7 +11,7 @@ const Manage = () => {
     const handleReject = (id) => {
         const proceed = window.confirm('Are you sure about that?');
         if (proceed) {
-            fetch(`http://localhost:5000/orders/${id}`, {
+            fetch(`https://frozen-peak-58122.herokuapp.com/orders/${id}`, {
                 method: 'DELETE'
             }).then(res => res.json())
                 .then(data => {
@@ -26,7 +26,7 @@ const Manage = () => {
     }
 
     const handleUpdate = (id) => {
-        fetch(`http://localhost:5000/orders/${id}`, {
+        fetch(`https://frozen-peak-58122.herokuapp.com/orders/${id}`, {
             method: 'PUT'
         })
             .then(res => res.json())
