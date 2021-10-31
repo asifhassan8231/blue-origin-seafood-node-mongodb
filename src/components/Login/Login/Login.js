@@ -23,9 +23,11 @@ const Login = () => {
         )
     }
     return (
-        <div>
-            <h2>Continue with Google</h2>
-            <button className="btn btn-warning" onClick={handleSignIn}>Google Sign In</button>
+        <div style={{ backgroundColor: 'skyblue' }}>
+            <div className="container p-5">
+                <h2>Continue with Google...</h2>
+                <button className="btn btn-warning" onClick={handleSignIn}>Google Sign In</button>
+            </div>
         </div>
     );
 };

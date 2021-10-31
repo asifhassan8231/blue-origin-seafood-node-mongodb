@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div>
             <div>
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
                     <Container>
                         <Navbar.Brand href="/home#home">BLUE ORIGIN</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -20,11 +20,11 @@ const Header = () => {
                                 <Nav.Link as={HashLink} to="/home#products">Products</Nav.Link>
                                 <Nav.Link as={HashLink} to="/home#about">About</Nav.Link>
                                 <Nav.Link as={HashLink} to="/home#blogs">Blogs</Nav.Link>
-                                <Nav.Link as={HashLink} to="/order">My Orders</Nav.Link>
-                                <Nav.Link as={HashLink} to="/manage">Manage All Orders</Nav.Link>
-                                <Nav.Link as={HashLink} to="/addProduct">Add a new product</Nav.Link>
+                                {user && <Nav.Link as={HashLink} to="/order">My Orders</Nav.Link>}
+                                {user && <Nav.Link as={HashLink} to="/manage">Manage All Orders</Nav.Link>}
+                                {user && <Nav.Link as={HashLink} to="/addProduct">Add a new product</Nav.Link>}
                                 {!user && <Nav.Link as={HashLink} to="/login">Login/Register</Nav.Link>}
-                                {user && <button onClick={googleSignOut}>LogOut</button>}
+                                {user && <button onClick={googleSignOut} className="btn btn-warning">LogOut</button>}
                                 {user && <p className="text-white ms-2 my-auto">{user.displayName}</p>}
                             </Nav>
                         </Navbar.Collapse>

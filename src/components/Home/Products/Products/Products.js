@@ -24,10 +24,10 @@ const Products = () => {
         )
     }
     return (
-        <div id="products">
+        <div id="products" style={{ backgroundColor: '#88FFF7' }}>
             <div>
                 <Container>
-                    <h2>Total Products: {products.length}</h2>
+                    <h2 className="mb-4">Total Products: {products.length}</h2>
                     <Row xs={1} md={2} className="g-4">
                         {
                             products.map(prd => (

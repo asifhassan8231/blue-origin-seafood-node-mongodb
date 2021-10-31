@@ -8,8 +8,9 @@ const Product = ({ product }) => {
     return (
         <div>
             <Col>
-                <Card>
-                    <Card.Img variant="top" src={img} className="img-fluid" />
+                <Card style={{ height: "770px" }} className="p-3">
+                    <Card.Img variant="top" src={img}
+                        className="img-fluid p-2 rounded" />
                     <Card.Body>
                         <Card.Title>{title}</Card.Title>
                         <Card.Text>

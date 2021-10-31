@@ -1,7 +1,11 @@
-# Getting Started with Create React App
+# Blue Origin Seafood Delivery Service
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The link of the project [link](https://blue-origin-seafood-delivery.web.app/).
 
-## Available Scripts
+## key points
 
-In the project directory, you can run:
+- This site is about ordering fresh seafood online.
+- Users can choose different varities of seafood available from this service.
+- User can place order to receive home delivery
+- In "My Order" section user can see their orders and can cancel it if they want
+- Admin can also manage the users order thoroughly
